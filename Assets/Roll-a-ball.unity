@@ -198,7 +198,9 @@ GameObject:
   - 4: {fileID: 742415158}
   - 33: {fileID: 742415157}
   - 135: {fileID: 742415156}
+  - 54: {fileID: 742415160}
   - 23: {fileID: 742415155}
+  - 114: {fileID: 742415159}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -257,6 +259,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &742415159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742415154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4e5aea984f5bf479ac062b786a0844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 500
+--- !u!54 &742415160
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 742415154}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &919310684
 GameObject:
   m_ObjectHideFlags: 0
